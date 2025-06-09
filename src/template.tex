@@ -26,12 +26,6 @@
 \makeatother
 
 
-% Definir leftmargin=* para todos os ambientes enumerate
-\setlist[enumerate,1]{leftmargin=*, resume, label=\textbf{\arabic*}}
-
-
-
-
 % Metadados
 $if(title)$
 \title{$title$}
@@ -98,7 +92,8 @@ $else$
 $endif$
 
 
-
+% Definir leftmargin=* para todos os ambientes enumerate
+\setlist[enumerate,1]{leftmargin=*, resume, label=\textbf{\chapternumber.\arabic*}}
 
 
 % Bold Vector

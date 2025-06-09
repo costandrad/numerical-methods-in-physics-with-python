@@ -214,7 +214,7 @@
 
 })();
 
-fetch("https://api.github.com/repos/costandrad/template-solucionario-rmd/commits?per_page=1")
+fetch("https://api.github.com/repos/costandrad/numerical-methods-in-physics-with-python/commits?per_page=1")
   .then(response => response.json())
   .then(data => {
     const dataCommit = new Date(data[0].commit.committer.date);
